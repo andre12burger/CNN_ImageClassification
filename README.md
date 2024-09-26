@@ -21,7 +21,7 @@ Passo a passo de como usar os comandos de GIT para trabalhar em grupo no projeto
    
 Cada participante deve clonar o repositório em sua máquina local:
 ```bash
-git clone https://github.com/usuario/projeto.git
+git clone https://github.com/webdepp1/CNN_ImageClassification/tree/main
 ```
 
 2. Criar uma Branch para trabalhar.
