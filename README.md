@@ -9,7 +9,7 @@
 - [Contribuição](#contribuição)
 
 ## GIT
-Passo a passo de como usar os comandos de GIT para trabalhar no projeto.
+Passo a passo de como usar os comandos de GIT para trabalhar em grupo no projeto.
 
 1. Clone o repositório.
     > Cada participante deve clonar o repositório em sua máquina local:
