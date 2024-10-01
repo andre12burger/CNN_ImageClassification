@@ -21,8 +21,7 @@ Para atualizar esse repositório, deverão fazer o dowload da versão mais atual
 Além de poderem fixar no arquivo README.md os links de cada usuário de seus ambientes colab para estar sempre com a última versão do código.
 
 ### *MODELOS USADOS*
-- [Colab André](https://colab.research.google.com/drive/1khViGNQdiuodyo981-JIzwcZ7LP9O1nH?authuser=2#scrollTo=zBfedif5NrgL)
-- 
+
 | Membro       | Modelo       | Link colab   |
 |--------------|--------------|--------------|
 | André        | ResNet       | [Colab André](https://colab.research.google.com/drive/1khViGNQdiuodyo981-JIzwcZ7LP9O1nH?authuser=2#scrollTo=zBfedif5NrgL)|
