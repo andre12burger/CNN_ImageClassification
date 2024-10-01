@@ -9,10 +9,21 @@ Este projeto tem como objetivo explorar três abordagens de classificação de i
 O dataset utilizado será o CIFAR-10, e as redes serão avaliadas com métricas como accuracy, precision, recall e F1-score.
 
 ## Índice
-- [GIT](#GIT)
 - [Uso](#uso)
+- [GIT](#GIT)
 - [Funcionalidades](#funcionalidades)
 - [Contribuição](#contribuição)
+
+## Uso
+Explicação de como atualizar o projeto:
+1. Google colab
+
+Os modelos criados por cada usuário serão hospedados em um ambiente colab.
+Para atualizar esse repositório, deverão fazer o dowload da versão mais atualizada do arquivo 'ipynb' (quando houver mudança), e atualizar o arquivo usando a ferramenta GIT, seguindo o passo a passo, para que não haja incompatibilidade com versionamento e arquivos.
+Além de poderem fixar no arquivo README.md os links de cada usuário de seus ambientes colab para estar sempre com a última versão do código.
+
+### *LINKS COLAB*
+- [Colab André](https://colab.research.google.com/drive/1khViGNQdiuodyo981-JIzwcZ7LP9O1nH?authuser=2#scrollTo=zBfedif5NrgL)
 
 ## GIT
 Passo a passo de como usar os comandos de GIT para trabalhar em grupo no projeto.
