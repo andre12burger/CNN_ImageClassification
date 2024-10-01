@@ -11,8 +11,6 @@ O dataset utilizado será o CIFAR-10, e as redes serão avaliadas com métricas 
 ## Índice
 - [Uso](#uso)
 - [GIT](#GIT)
-- [Funcionalidades](#funcionalidades)
-- [Contribuição](#contribuição)
 
 ## Uso
 Explicação de como atualizar o projeto:
@@ -22,8 +20,13 @@ Os modelos criados por cada usuário serão hospedados em um ambiente colab.
 Para atualizar esse repositório, deverão fazer o dowload da versão mais atualizada do arquivo 'ipynb' (quando houver mudança), e atualizar o arquivo usando a ferramenta GIT, seguindo o passo a passo, para que não haja incompatibilidade com versionamento e arquivos.
 Além de poderem fixar no arquivo README.md os links de cada usuário de seus ambientes colab para estar sempre com a última versão do código.
 
-### *LINKS COLAB*
+### *MODELOS USADOS*
 - [Colab André](https://colab.research.google.com/drive/1khViGNQdiuodyo981-JIzwcZ7LP9O1nH?authuser=2#scrollTo=zBfedif5NrgL)
+- 
+| Membro       | Modelo       | Link colab   |
+|--------------|--------------|--------------|
+| André        | ResNet       | [Colab André](https://colab.research.google.com/drive/1khViGNQdiuodyo981-JIzwcZ7LP9O1nH?authuser=2#scrollTo=zBfedif5NrgL)|
+| Membro 2     | Faz Y        | Não          |
 
 ## GIT
 Passo a passo de como usar os comandos de GIT para trabalhar em grupo no projeto.
