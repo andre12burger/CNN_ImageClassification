@@ -26,6 +26,7 @@ Além de poderem fixar no arquivo README.md os links de cada usuário de seus am
 |--------------|--------------|--------------|
 | André        | ResNet       | [Colab André](https://colab.research.google.com/drive/1vvgenxL3_dBnvHvz9I-usvjb8H_G5t02)|
 | Lucas Soares | Inception v3 | [Colab Lucas](https://colab.research.google.com/drive/1hktJRINsbrDC2DUcVl4zQ8c4iNNBvc9x?authuser=1)|
+| Pedro F.     | MaxVit       | [Colab Pedro](https://colab.research.google.com/drive/1Yfw5a8teZmHW33w4MfSsCCUnkSreMIMX?usp=sharing)|
 
 ## GIT
 Passo a passo de como usar os comandos de GIT para trabalhar em grupo no projeto.
