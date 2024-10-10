@@ -17,15 +17,16 @@ Explicação de como atualizar o projeto:
 1. Google colab
 
 Os modelos criados por cada usuário serão hospedados em um ambiente colab.
-Para atualizar esse repositório, deverão fazer o dowload da versão mais atualizada do arquivo 'ipynb' (quando houver mudança), e atualizar o arquivo usando a ferramenta GIT, seguindo o passo a passo, para que não haja incompatibilidade com versionamento e arquivos.
+Para atualizar esse repositório, deverão fazer o download da versão mais atualizada do arquivo 'ipynb' (quando houver mudança), e atualizar o arquivo usando a ferramenta GIT, seguindo o passo a passo, para que não haja incompatibilidade com versionamento e arquivos.
 Além de poderem fixar no arquivo README.md os links de cada usuário de seus ambientes colab para estar sempre com a última versão do código.
 
 ### *MODELOS USADOS*
 
 | Membro       | Modelo       | Link colab   |
 |--------------|--------------|--------------|
-| André        | ResNet       | [Colab André](https://colab.research.google.com/drive/1khViGNQdiuodyo981-JIzwcZ7LP9O1nH?authuser=2#scrollTo=zBfedif5NrgL)|
+| André        | ResNet       | [Colab André](https://colab.research.google.com/drive/1vvgenxL3_dBnvHvz9I-usvjb8H_G5t02)|
 | Lucas Soares | Inception v3 | [Colab Lucas](https://colab.research.google.com/drive/1hktJRINsbrDC2DUcVl4zQ8c4iNNBvc9x?authuser=1)|
+| Pedro F.     | MaxVit       | [Colab Pedro](https://colab.research.google.com/drive/1Yfw5a8teZmHW33w4MfSsCCUnkSreMIMX?usp=sharing)|
 
 ## GIT
 Passo a passo de como usar os comandos de GIT para trabalhar em grupo no projeto.
