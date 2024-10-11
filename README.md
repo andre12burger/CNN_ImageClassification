@@ -34,7 +34,7 @@ Amostra de imgens CIFAR-10:
 
 | Membro       | Modelo       | Link colab   | Arquivo local |
 |--------------|--------------|--------------|--------------|
-| André Burger | ResNet | [Resnet Colab]([https://colab.research.google.com/drive/1vvgenxL3_dBnvHvz9I-usvjb8H_G5t02](https://github.com/andre12burger/CNN_ImageClassification/tree/main))| [Resnet Notebook](notebooks/Andre_CNN_ImageClassification.ipynb) |
+| André Burger | ResNet | [Resnet Colab](https://colab.research.google.com/drive/1vvgenxL3_dBnvHvz9I-usvjb8H_G5t02](https://github.com/andre12burger/CNN_ImageClassification/tree/main))| [Resnet Notebook](notebooks/Andre_CNN_ImageClassification.ipynb) |
 | Lucas Soares | Inception v3 | [Inception Colab](https://colab.research.google.com/drive/1hktJRINsbrDC2DUcVl4zQ8c4iNNBvc9x?authuser=1) | - |
 | Pedro Flores | MaxVit | [MaxVit Colab](https://colab.research.google.com/drive/1Yfw5a8teZmHW33w4MfSsCCUnkSreMIMX?usp=sharing) | - |
 
