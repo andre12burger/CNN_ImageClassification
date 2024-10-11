@@ -10,6 +10,7 @@ O dataset utilizado será o CIFAR-10, e as redes serão avaliadas com métricas 
 
 ## Índice
 - [Modelos e Dataset](#modelos-e-dataset)
+- [Estrutura do Projeto](#estrutura-do-projeto)
 - [GIT](#GIT)
 
 ## Modelos e Dataset
@@ -24,6 +25,11 @@ O CIFAR-10 (Canadian Institute For Advanced Research) é um conjunto de dados ut
 - As imagens estão em formato **RGB**, e cada uma é associada a um rótulo de classe correspondente.
 - As classes são mutuamente exclusivas e não possuem sobreposição entre as categorias.
 
+Amostra de imgens CIFAR-10:
+
+![imagens]()
+
+
 ### MODELOS USADOS
 
 | Membro       | Modelo       | Link colab   | Arquivo local |
@@ -31,6 +37,19 @@ O CIFAR-10 (Canadian Institute For Advanced Research) é um conjunto de dados ut
 | André Burger | ResNet | [Resnet Colab](https://colab.research.google.com/drive/1vvgenxL3_dBnvHvz9I-usvjb8H_G5t02)| [Resnet Notebook](notebooks/Andre_CNN_ImageClassification.ipynb) |
 | Lucas Soares | Inception v3 | [Inception Colab](https://colab.research.google.com/drive/1hktJRINsbrDC2DUcVl4zQ8c4iNNBvc9x?authuser=1) | - |
 | Pedro Flores | MaxVit | [MaxVit Colab](https://colab.research.google.com/drive/1Yfw5a8teZmHW33w4MfSsCCUnkSreMIMX?usp=sharing) | - |
+
+## Estrutura do Projeto
+Cada modelo foi treinado e inferido em uma estrutura padronizada, esse processo foi repetido para as três versões do mesmo modelo:
+  - Treinamento de uma rede do zero.
+  - Uso de uma rede pré-treinada sem ajustes.
+  - Fine-tuning de uma rede pré-treinada.
+
+### Estrutura
+1. Download do dataset
+2. Plotagem de imagens do dataset
+3. Modelos, critérios e otimizadores das redes
+4. Treino das redes
+5. Plotagem das métricas de avaliação das redes
 
 ## GIT
 Passo a passo de como usar os comandos de GIT para trabalhar em grupo no projeto.
