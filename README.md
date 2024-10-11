@@ -11,7 +11,7 @@ O dataset utilizado será o CIFAR-10, e as redes serão avaliadas com métricas 
 ## Índice
 - [Modelos e Dataset](#modelos-e-dataset)
 - [Estrutura do Projeto](#estrutura-do-projeto)
-- [Comparação dos modelos](#comparacao-dos-modelos)
+- [Comparação dos modelos](#comparação-dos-modelos)
 - [GIT](#GIT)
 
 ## Modelos e Dataset
