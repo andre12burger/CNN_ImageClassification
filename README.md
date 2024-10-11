@@ -11,6 +11,7 @@ O dataset utilizado será o CIFAR-10, e as redes serão avaliadas com métricas 
 ## Índice
 - [Modelos e Dataset](#modelos-e-dataset)
 - [Estrutura do Projeto](#estrutura-do-projeto)
+- [Comparação dos modelos](#comparacao-dos-modelos)
 - [GIT](#GIT)
 
 ## Modelos e Dataset
@@ -27,7 +28,7 @@ O CIFAR-10 (Canadian Institute For Advanced Research) é um conjunto de dados ut
 
 Amostra de imgens CIFAR-10:
 
-![imagens](images/cifar10_classes.png)
+![classes](images/cifar10_classes.png)
 
 
 ### MODELOS USADOS
@@ -50,6 +51,19 @@ Cada modelo foi treinado e inferido em uma estrutura padronizada, esse processo 
 3. Modelos, critérios e otimizadores das redes
 4. Treino das redes
 5. Plotagem das métricas de avaliação das redes
+
+## Comparação dos modelos
+Algumas plotagens e inferências visando comparar a eficiência dos modelos escolhidos.
+
+### **Matriz de confusão:**
+A matriz de confusão mostra o número de classificações corretas e incorretas em cada classe. Comparando as matrizes de confusão dos modelos, é possível identificar quais classes foram mais facilmente reconhecidas e onde os erros de classificação foram mais frequentes.
+
+![matrizes]()
+
+### **Métricas de avaliação**
+As métricas de avaliação incluem a `acurácia`, `precisão`, `recall` e `F1-score`, que fornecem uma visão quantitativa do desempenho dos modelos. A acurácia mede a proporção de previsões corretas, enquanto a precisão indica a porcentagem de classificações corretas para uma determinada classe. O recall mede a capacidade do modelo de identificar todas as instâncias de uma classe, e o F1-score oferece um balanço entre precisão e recall. Essas métricas são fundamentais para a comparação objetiva dos modelos em relação à sua capacidade de generalização.
+
+![metricas]()
 
 ## GIT
 Passo a passo de como usar os comandos de GIT para trabalhar em grupo no projeto.
