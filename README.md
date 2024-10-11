@@ -27,7 +27,7 @@ O CIFAR-10 (Canadian Institute For Advanced Research) é um conjunto de dados ut
 
 Amostra de imgens CIFAR-10:
 
-![imagens]()
+![imagens](images/cifar10_classes.png)
 
 
 ### MODELOS USADOS
