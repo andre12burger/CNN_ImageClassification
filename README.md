@@ -9,24 +9,47 @@ Este projeto tem como objetivo explorar três abordagens de classificação de i
 O dataset utilizado será o CIFAR-10, e as redes serão avaliadas com métricas como accuracy, precision, recall e F1-score.
 
 ## Índice
-- [Uso](#uso)
+- [Modelos e Dataset](#modelos-e-dataset)
+- [Estrutura do Projeto](#estrutura-do-projeto)
 - [GIT](#GIT)
 
-## Uso
-Explicação de como atualizar o projeto:
-1. Google colab
+## Modelos e Dataset
 
-Os modelos criados por cada usuário serão hospedados em um ambiente colab.
-Para atualizar esse repositório, deverão fazer o download da versão mais atualizada do arquivo 'ipynb' (quando houver mudança), e atualizar o arquivo usando a ferramenta GIT, seguindo o passo a passo, para que não haja incompatibilidade com versionamento e arquivos.
-Além de poderem fixar no arquivo README.md os links de cada usuário de seus ambientes colab para estar sempre com a última versão do código.
+### Dataset (**[CIFAR-10](https://pytorch.org/vision/stable/generated/torchvision.datasets.CIFAR10.html)**)
+O CIFAR-10 (Canadian Institute For Advanced Research) é um conjunto de dados utilizado em tarefas de classificação de imagens e treinamento de modelos de aprendizado de máquina. Ele consiste em:
 
-### *MODELOS USADOS*
+- **10 classes**: avião, automóvel, pássaro, gato, cervo, cachorro, sapo, cavalo, navio e caminhão.
+- **60.000 imagens coloridas**, de 32x32 pixels.
+  - **50.000 imagens** no conjunto de treinamento.
+  - **10.000 imagens** no conjunto de teste.
+- As imagens estão em formato **RGB**, e cada uma é associada a um rótulo de classe correspondente.
+- As classes são mutuamente exclusivas e não possuem sobreposição entre as categorias.
 
-| Membro       | Modelo       | Link colab   |
-|--------------|--------------|--------------|
-| André        | ResNet       | [Colab André](https://colab.research.google.com/drive/1vvgenxL3_dBnvHvz9I-usvjb8H_G5t02)|
-| Lucas Soares | Inception v3 | [Colab Lucas](https://colab.research.google.com/drive/1hktJRINsbrDC2DUcVl4zQ8c4iNNBvc9x?authuser=1)|
-| Pedro F.     | MaxVit       | [Colab Pedro](https://colab.research.google.com/drive/1Yfw5a8teZmHW33w4MfSsCCUnkSreMIMX?usp=sharing)|
+Amostra de imgens CIFAR-10:
+
+![imagens]()
+
+
+### MODELOS USADOS
+
+| Membro       | Modelo       | Link colab   | Arquivo local |
+|--------------|--------------|--------------|--------------|
+| André Burger | ResNet | [Resnet Colab](https://colab.research.google.com/drive/1vvgenxL3_dBnvHvz9I-usvjb8H_G5t02)| [Resnet Notebook](notebooks/Andre_CNN_ImageClassification.ipynb) |
+| Lucas Soares | Inception v3 | [Inception Colab](https://colab.research.google.com/drive/1hktJRINsbrDC2DUcVl4zQ8c4iNNBvc9x?authuser=1) | - |
+| Pedro Flores | MaxVit | [MaxVit Colab](https://colab.research.google.com/drive/1Yfw5a8teZmHW33w4MfSsCCUnkSreMIMX?usp=sharing) | - |
+
+## Estrutura do Projeto
+Cada modelo foi treinado e inferido em uma estrutura padronizada, esse processo foi repetido para as três versões do mesmo modelo:
+  - Treinamento de uma rede do zero.
+  - Uso de uma rede pré-treinada sem ajustes.
+  - Fine-tuning de uma rede pré-treinada.
+
+### Estrutura
+1. Download do dataset
+2. Plotagem de imagens do dataset
+3. Modelos, critérios e otimizadores das redes
+4. Treino das redes
+5. Plotagem das métricas de avaliação das redes
 
 ## GIT
 Passo a passo de como usar os comandos de GIT para trabalhar em grupo no projeto.
