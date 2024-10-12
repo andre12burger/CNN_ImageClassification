@@ -12,6 +12,7 @@ O dataset utilizado será o CIFAR-10, e as redes serão avaliadas com métricas 
 - [Modelos e Dataset](#modelos-e-dataset)
 - [Estrutura do Projeto](#estrutura-do-projeto)
 - [Comparação dos modelos](#comparação-dos-modelos)
+- [Execução dos Notebooks](#execução-dos-notebooks)
 - [GIT](#GIT)
 
 ## Modelos e Dataset
@@ -64,6 +65,18 @@ A matriz de confusão mostra o número de classificações corretas e incorretas
 As métricas de avaliação incluem a `acurácia`, `precisão`, `recall` e `F1-score`, que fornecem uma visão quantitativa do desempenho dos modelos. A acurácia mede a proporção de previsões corretas, enquanto a precisão indica a porcentagem de classificações corretas para uma determinada classe. O recall mede a capacidade do modelo de identificar todas as instâncias de uma classe, e o F1-score oferece um balanço entre precisão e recall. Essas métricas são fundamentais para a comparação objetiva dos modelos em relação à sua capacidade de generalização.
 
 ![metricas]()
+
+## Execução dos Notebooks
+Os modelos usados nesse projeto foram treinados e executados em ambiente Jupyter. Os Notebooks com os códigos se disponibilizam em dois ambientes:
+- Google Colab
+- Ambiente local
+
+### Google colab
+O Google Colab é uma plataforma gratuita baseada na nuvem que permite criar e executar notebooks Jupyter diretamente no navegador. O Colab fornece acesso a GPUs e TPUs gratuitamente.
+A execução do código em ambiente colab é simples, basta conectar o Notebook ao servidor do Google e executar as células.
+
+### Ambiente Local
+Os arquivos com extensão `.ipynb` podem ser executados localmente instalando as bibliotecas e dependências necessárias. Os pesos gerados pelos modelos já treinados também podem ser instalados através da pasta `/pesos`.
 
 ## GIT
 Passo a passo de como usar os comandos de GIT para trabalhar em grupo no projeto.
