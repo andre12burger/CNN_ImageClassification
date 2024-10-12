@@ -13,6 +13,7 @@ O dataset utilizado será o CIFAR-10, e as redes serão avaliadas com métricas 
 - [Estrutura do Projeto](#estrutura-do-projeto)
 - [Comparação dos modelos](#comparação-dos-modelos)
 - [Execução dos Notebooks](#execução-dos-notebooks)
+- [Dependências e Pacotes necessários](#dependências-e-pacotes-necessários)
 - [GIT](#GIT)
 
 ## Modelos e Dataset
@@ -76,7 +77,17 @@ O Google Colab é uma plataforma gratuita baseada na nuvem que permite criar e e
 A execução do código em ambiente colab é simples, basta conectar o Notebook ao servidor do Google e executar as células.
 
 ### Ambiente Local
-Os arquivos com extensão `.ipynb` podem ser executados localmente instalando as bibliotecas e dependências necessárias. Os pesos gerados pelos modelos já treinados também podem ser instalados através da pasta `/pesos`.
+Os arquivos com extensão `.ipynb` podem ser executados localmente instalando as bibliotecas e dependências necessárias. Os pesos gerados pelos modelos já treinados também podem ser instalados através da pasta `/models_weights`.
+
+
+## Dependências e Pacotes necessários
+
+Caso necessário a utilização de uma máquina local, as bibliotecas usadas no projeto podem ser encontradas no arquivo `requirements.txt`. A criação de um ambiente virtual ajuda com o controle de pacotes.
+A instalação das bibliotecas pode ser executada da seguinte maneira no terminal:
+
+```bash
+  pip install -r requirements.txt
+```
 
 ## GIT
 Passo a passo de como usar os comandos de GIT para trabalhar em grupo no projeto.
