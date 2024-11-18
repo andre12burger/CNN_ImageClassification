@@ -78,7 +78,7 @@ O Google Colab é uma plataforma gratuita baseada na nuvem que permite criar e e
 A execução do código em ambiente colab é simples, basta conectar o Notebook ao servidor do Google e executar as células.
 
 ### Ambiente Local
-Os arquivos com extensão `.ipynb` podem ser executados localmente instalando as bibliotecas e dependências necessárias. Os pesos gerados pelos modelos já treinados também podem ser instalados através da pasta `/models_weights`.
+Os arquivos com extensão `.ipynb` que estão localizados na pasta `/notebooks` podem ser executados localmente instalando as bibliotecas e dependências necessárias. Os pesos gerados pelos modelos já treinados também podem ser instalados através da pasta `/models_weights`.
 
 
 ## Dependências e Pacotes necessários
