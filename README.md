@@ -37,7 +37,7 @@ Amostra de imgens CIFAR-10:
 
 | Membro       | Modelo       | Link colab   | Arquivo local |
 |--------------|--------------|--------------|--------------|
-| André Burger | [ResNet](https://arxiv.org/pdf/1512.03385) | [Resnet Colab](https://colab.research.google.com/drive/1M1eeeHHmgKFrja_KyUTXdi-3_GwbaN3_?authuser=2#scrollTo=GWOqLiH6hAwA)| [Resnet Notebook](notebooks/Andre_CNN_ImageClassification.ipynb) |
+| André Burger | [ResNet](https://arxiv.org/pdf/1512.03385) | [Resnet Colab](https://colab.research.google.com/drive/1M1eeeHHmgKFrja_KyUTXdi-3_GwbaN3_?authuser=2#scrollTo=GWOqLiH6hAwA)| [Resnet Notebook](notebooks/Resnet_CNN_ImageClassification.ipynb) |
 | Lucas Soares | [Inception v3](https://arxiv.org/pdf/1512.00567) | [Inception Colab](https://colab.research.google.com/drive/1hktJRINsbrDC2DUcVl4zQ8c4iNNBvc9x?authuser=1) | - |
 | Pedro Flores | [MaxVit](https://arxiv.org/pdf/2204.01697) | [MaxVit Colab](https://colab.research.google.com/drive/1Yfw5a8teZmHW33w4MfSsCCUnkSreMIMX?usp=sharing) | - |
 | Gabriel Lima | -  |[Colab Gabriel](https://colab.research.google.com/drive/1yBd8qwiUUfrVTdbNP-KAshr7AqPDctiI#scrollTo=5lFL0Xxs1JrK) | - | 
